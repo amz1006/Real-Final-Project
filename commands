@@ -1,0 +1,143 @@
+ 23  wget ftp://ftp.ensembl.org/pub/release-100/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz
+   24  wget ftp://ftp.ensembl.org/pub/release-100/fasta/mus_musculus/cdna/Mus_musculus.GRCm38.cdna.all.fa.gz
+   25  ftp://ftp.ensembl.org/pub/release-100/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz
+   26  wget ftp://ftp.ensembl.org/pub/release-100/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz
+   27  ls
+   28  rm Homo_sapiens.GRCh38.cdna.all.fa.gz1
+   29  rm Homo_sapiens.GRCh38.cdna.all.fa.gz.1
+   30  ls
+   31  wget ftp://ftp.ensembl.org/pub/release-100/fasta/danio_rerio/cdna/Danio_rerio.GRCz11.cdna.all.fa.gz
+   32  ls
+   33  sudo apt-get update
+   34  sudo apt-get -y upgrade
+   35  grep -A 1 TYR Homo_sapiens.GRCh38.cdna.all.fa.gz
+   36  ls
+   37  gunzip Danio_rerio.GRCz11.cdna.all.fa.gz
+   38  ls
+   39  gunzip Homo_sapiens.GRCh38.cdna.all.fa.gz
+   40  gunzip Mus_musculus.GRCm38.cdna.all.fa.gz
+   41  grep -A 1 TYR Mus_musculus.GRCm38.cdna.all.fa
+   42  grep -A 1 OAC1 Mus_musculus.GRCm38.cdna.all.fa
+   43  grep -A 1 skc35 Mus_musculus.GRCm38.cdna.all.fa
+   44  grep -A 1 ENSMUST00000028763.9 Mus_musculus.GRCm38.cdna.all.fa
+   45  grep -A 1 ENSMUST00000028763.9 Mus_musculus.GRCm38.cdna.all.fa > mousetyrgene
+   46  grep -A 1 ENSMUST00000148343.7 Mus_musculus.GRCm38.cdna.all.fa >> mousetyrgene
+   47  grep -A 1 ENSMUST00000147636.7 Mus_musculus.GRCm38.cdna.all.fa >> mousetyrgene
+   48  ENSMUST00000148343.7
+   49  grep -A a ENSMUST00000148343.7
+   50  grep -A 1 ENSMUST00000148343.7
+   51  grep -A 1 ENSMUST00000110783.7 Mus_musculus.GRCm38.cdna.all.fa >> mousetyrgene
+   52  grep -A 1 ENSMUST00000135726.1 Mus_musculus.GRCm38.cdna.all.fa >> mousetyrgene
+   53  grep -A 1 ENSMUST00000032800.9
+   54  grep -A 1 ENSMUST00000032800.9 Mus_musculus.GRCm38.cdna.all.fa >>mousetyrgene
+   55  grep -A 1 tyr Homo_sapiens.GRCh38.cdna.all.fa
+   56  grep -A 1 TYR Homo_sapiens.GRCh38.cdna.all.fa
+   57  grep -A 1 '>ENST00000559066.5\|>ENST00000263798.8\|>ENST00000560992.1\|>ENST00000560227.1\|>ENST00000568343.1\|>ENST00000263321.6\|>ENST00000526139.1\|>ENST00000528243.1' Homo_sapiens.GRCh38.cdna.all.fa
+   58  grep -A 1 '>ENST00000559066.5\|>ENST00000263798.8\|>ENST00000560992.1\|>ENST00000560227.1\|>ENST00000568343.1\|>ENST00000263321.6\|>ENST00000526139.1\|>ENST00000528243.1' Homo_sapiens.GRCh38.cdna.all.fa > humantyrgene
+   59  ls
+   60  grep -A 1 TYR Danio_rerio.GRCz11.cdna.all.fa
+   61  grep -A 1 TYR Danio_rerio.GRCz11.cdna.all.fa > zebrafishtyrgene
+   62  cat humantyrgene mousetyrgene zebrafishtyrgene >>final.aln
+   63  ls
+   64  rm final.aln
+   65  cat humantyrgene mousetyrgene zebrafishtyrgene >> combinedtyrgenes
+   66  mafft --reorder --localpair --thread 6 combinedtyrgenes > final.aln
+   67  apt install mafft
+   68  sudo apt-get -y install ruby build-essential python python-pip gdebi-core r-base git
+   69  mafft --reorder --localpair --thread 6 combinedtyrgenes > final.aln
+   70  apt install mafft
+   71  Command 'mafft' not found, but can be installed with:
+   72  clear
+   73  conda install -c conda-forge tmux
+   74  cd
+   75  mkdir anaconda
+   76  cd anaconda
+   77  curl -LO https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh
+   78  bash Anaconda3-5.1.0-Linux-x86_64.sh -b -p $HOME/anaconda/install/
+   79  echo ". $HOME/anaconda/install/etc/profile.d/conda.sh" >> ~/.bashrc
+   80  source ~/.bashrc
+   81  conda update -n base conda
+   82  conda install -c conda-forge tmux
+   83  ls
+   84  cd
+   85  ls
+   86  rm -i anaconda/
+   87  cd anaconda/
+   88  conda create -y --name gen711
+   89  conda activate gen711
+   90  conda install -y -c bioconda mafft
+   91  cd
+   92  clear
+   93  cd final/
+   94  mafft --reorder --localpair --thread 6 co > final.aln
+   95  mafft --reorder --localpair --thread 6 combinedtyrgenes > final.aln
+   96  ls
+   97  cat final.aln
+   98  conda install -c conda-forge tmux
+   99  tmux new -s final
+  100  tmux at -t final
+  101  ls
+  102  cat final2.aln
+  103  clear
+  104  ls
+  105  rm final2.aln
+  106  rm combinedmsa.aln
+  107  cat oca1genes
+  108  grep -A 1 zebra oca1genes
+  109  grep -A 1 zebra oca1genes >zebraoac1
+  110  grep -A 1 human oca1genes > humanoca1
+  111  grep -
+  112  grep -A 1 mouse oca1genes >mouseoca1
+  113  ls
+  114  cat header_mousetyr mouseoca1 >>combinedmouse
+  115  mafft --reorder --localpair --thread 6 combinedmouse > mousealign
+  116  cat mousealign
+  117  nano combinedmouse
+  118  TTTTTTTTAGAAAATTAAAAGTAAATGTATAGAAGTAAAAAGTTTGTTTTCTAAATCAGTGTTCTATATGTTGCA
+  119  mafft --auto combinedmouse > mouseoutput
+  120  ls
+  121  cat mouseoutput
+  122  git init
+  123  touch project commands
+  124  git status
+  125  git add final.aln
+  126  git -m "multiple sequence alignment of TYR genes"
+  127  git commit -m "MSA of TYR genes"
+  128  git config --global user.email "ashleyzee55@aol.com"
+  129  git commit -m "MSA of TYR genes"
+  130  git status
+  131  git remote add origin https://github.com/amz1006/amz1006.git
+  132  git push -u origin master
+  133  git remote add origin https://github.com/amz1006/amz1006.git
+  134  git push -u origin master
+  135  echo "# amz1006" >> README.md
+  136  git init
+  137  git add README.md
+  138  git commit -m "first commit"
+  139  git remote add origin https://github.com/amz1006/amz1006.git
+  140  git push -u origin master
+  141  clear
+  142  tmux at -t final
+  143  history
+(gen711) amz1006@js-17-159:~/final$ ^C
+(gen711) amz1006@js-17-159:~/final$ tmux at -t final
+mousetyr
+   11  ls
+   12  rm combinedtyrgenes
+   13  ls
+   14  nano humanoac1gene
+   15  ls
+   16  cat mousetyrgene
+   17  cat header_mousetyr
+   18  clear
+   19  ls
+   20  cat header_mousetyr header_zebrafishtyr header_humantyrgene oca1genes >>combinestyrgenes
+   21  mafft --reorder --localpair --thread 6 combinestyrgenes > combinedmsa.aln
+   22  ls
+   23  cat combinemsa.aln
+   24  cat combinedmsa.aln
+   25  head combinedmsa.aln
+   26  nano combinedmsa.aln
+   27  clear
+   28  ls
+   29  cat combinestyrgenes
