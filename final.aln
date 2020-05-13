@@ -1,0 +1,64 @@
+>ENST00000559066.5 cdna chromosome:GRCh38:15:41557675:41578805:1 gene:ENSG00000092445.12 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:TYRO3 description:TYRO3 protein tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:12446]
+---------------------------------aagaaagaaacagagacagagatatct
+ggcccctgccatccatgtcttgacagtgcctca---------------------------
+--
+>ENST00000263321.6 cdna chromosome:GRCh38:11:89177875:89295759:1 gene:ENSG00000077498.9 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:TYR description:tyrosinase [Source:HGNC Symbol;Acc:HGNC:12442]
+-----------------------------actgtagtagtagctggaaagagaaatctgt
+gactccaattagccagttcctgcagacct-------------------------------
+--
+>ENST00000526139.1 cdna chromosome:GRCh38:11:89177893:89200611:1 gene:ENSG00000077498.9 gene_biotype:protein_coding transcript_biotype:processed_transcript gene_symbol:TYR description:tyrosinase [Source:HGNC Symbol;Acc:HGNC:12442]
+-----------------------------------------------aagagaaatctgt
+gactccaattagccagttcctgcagaccttgtga------------ggactagaggaag-
+--
+>ENSMUST00000110783.7 cdna chromosome:GRCm38:2:119797733:119818104:1 gene:ENSMUSG00000027298.17 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Tyro3 description:TYRO3 protein tyrosine kinase 3 [Source:MGI Symbol;Acc:MGI:104294]
+-----------------------------------------------------------t
+tctgcctgccactttggccctgaaagcgtcctggagccat-cctagagttcccaagaaaa
+--
+>ENST00000263798.8 cdna chromosome:GRCh38:15:41559212:41583589:1 gene:ENSG00000092445.12 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:TYRO3 description:TYRO3 protein tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:12446]
+---------------------------ctcctcgctcgcggg------ccgggcccggca
+tggtgcggcgtcgccgccg-----atggcgctgaggcg----------------------
+--
+>ENST00000560992.1 cdna chromosome:GRCh38:15:41559227:41562355:1 gene:ENSG00000092445.12 gene_biotype:protein_coding transcript_biotype:retained_intron gene_symbol:TYRO3 description:TYRO3 protein tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:12446]
+------------------------------------------------ccgggcccggca
+tggtgcggcgtcgccgccg-----atggcgctgaggcggagcatggggcggcc-------
+--
+>ENST00000560227.1 cdna chromosome:GRCh38:15:41564784:41568265:1 gene:ENSG00000092445.12 gene_biotype:protein_coding transcript_biotype:retained_intron gene_symbol:TYRO3 description:TYRO3 protein tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:12446]
+-------------------------------------------------cagggccttcg
+tggcagggagaggcaacc-------tctctccacagcc---caggcactctcccaggtg-
+--
+>ENSMUST00000028763.9 cdna chromosome:GRCm38:2:119799514:119818104:1 gene:ENSMUSG00000027298.17 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Tyro3 description:TYRO3 protein tyrosine kinase 3 [Source:MGI Symbol;Acc:MGI:104294]
+------------------------------------------------ggcgggcgggcg
+ggccgggaggaggcggcg-------gctcgcagaagaa---catgaatcagcggcggc--
+--
+>ENST00000568343.1 cdna chromosome:GRCh38:15:41570677:41577973:1 gene:ENSG00000092445.12 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:TYRO3 description:TYRO3 protein tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:12446]
+-----------------------------cctgggccggatgttgggcaaaggagagttt
+ggttcagtgcgggaggc---------ccagctgaagca----------------------
+--
+>ENSMUST00000147636.7 cdna chromosome:GRCm38:2:119799239:119805650:1 gene:ENSMUSG00000027298.17 gene_biotype:protein_coding transcript_biotype:processed_transcript gene_symbol:Tyro3 description:TYRO3 protein tyrosine kinase 3 [Source:MGI Symbol;Acc:MGI:10
+---------------------------ggggtgtggcaggagcttccaagaggggttctg
+aggagaggatggggtgc---------cccgctggag------------------------
+--
+>ENSMUST00000148343.7 cdna chromosome:GRCm38:2:119799327:119803335:1 gene:ENSMUSG00000027298.17 gene_biotype:protein_coding transcript_biotype:processed_transcript gene_symbol:Tyro3 description:TYRO3 protein tyrosine kinase 3 [Source:MGI Symbol;Acc:MGI:10
+-------------------------------gtggccgggtgcctgtccagggagcgagg
+cag----------------------gtcctccgcagcggc-agcggagtggcca------
+--
+>ENSDART00000141956.3 cdna chromosome:GRCz11:16:25196572:25200757:1 gene:ENSDARG00000094894.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:tyrobp description:TYRO protein tyrosine kinase binding protein [Source:ZFIN;Acc:ZDB-GE
+---------------------------------cttcttgtattcgagtcagggctgtgt
+aaaccctgagcaatctttcctaa-acctgtctgc--------------------------
+--
+>ENSMUST00000135726.1 cdna chromosome:GRCm38:2:119801116:119803293:1 gene:ENSMUSG00000027298.17 gene_biotype:protein_coding transcript_biotype:processed_transcript gene_symbol:Tyro3 description:TYRO3 protein tyrosine kinase 3 [Source:MGI Symbol;Acc:MGI:10
+---------gtttta-----------cagggtggagtcagggatactagcagcagttcgt
+gggcttgact--------------gacaccctgg--------------------------
+--
+>ENST00000528243.1 cdna chromosome:GRCh38:11:89283767:89295308:1 gene:ENSG00000077498.9 gene_biotype:protein_coding transcript_biotype:processed_transcript gene_symbol:TYR description:tyrosinase [Source:HGNC Symbol;Acc:HGNC:12442]
+---------------------------------------------------------ttg
+agtttctactccattcttactg--gacttttttcaatc---ctttaattttttagttttt
+tt
+>ENSDART00000140391.3 cdna chromosome:GRCz11:17:10501647:10553538:1 gene:ENSDARG00000005356.11 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:tyro3 description:TYRO3 protein tyrosine kinase [Source:NCBI gene;Acc:30709]
+cgaacgctaattttactcatttaactgcgggaacagagtgagttaaaagcaagaggatga
+------------------------------------------------------------
+--
+>ENSMUST00000032800.9 cdna chromosome:GRCm38:7:30413788:30417577:1 gene:ENSMUSG00000030579.10 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Tyrobp description:TYRO protein tyrosine kinase binding protein [Source:MGI Symbol;Acc:
+------------------------------------------------ccaggtcccacc
+agcccctggactgtggtgtccagtgcatatctggccac---catgggggct---------
+--
